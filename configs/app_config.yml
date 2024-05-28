@@ -1,0 +1,32 @@
+RAPTOR:
+  ACCOUNT: 'tj90313.west-europe.azure'
+  HOLIDAY_TYPE: 'Country'
+  FINANCIAL_MARKET: 'LSE'
+  COUNTRY: 'GB'
+  SUBDIVISION: 'England'
+  USER_NAME: 'ap{0}_{1}_sfk_depl@mufgsecurities.com'
+  CONNECTION_TYPE: 'privatekey'
+  ROLE: '{0}_{1}_OWNER'
+  WAREHOUSE: '{0}_{1}_WH'
+
+MUSDW:
+  ACCOUNT: 'tj90313.west-europe.azure'
+  HOLIDAY_TYPE: 'Financial'
+  FINANCIAL_MARKET: 'NYSE'
+  COUNTRY: 'US'
+  SUBDIVISION: 'NY'
+  USER_NAME: 'CHARLIE.HOLLIGAN2@MUFGSECURITIES.COM'
+  CONNECTION_TYPE: 'privatekey'
+  ROLE: '{0}_{1}_OWNER'
+  WAREHOUSE: '{0}_{1}_WH_XS'
+
+REGOPS:
+  ACCOUNT: 'tj90313.west-europe.azure'
+  HOLIDAY_TYPE: 'Country'
+  FINANCIAL_MARKET: 'LSE'
+  COUNTRY: 'GB'
+  SUBDIVISION: 'England'
+  USER_NAME: 'marcos.magri@mufgsecurities.com'
+  CONNECTION_TYPE: 'externalbrowser'
+  ROLE: 'BI_DEVELOPER'
+  WAREHOUSE: '{0}_raptor_WH'
