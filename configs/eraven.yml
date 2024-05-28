@@ -1,0 +1,8 @@
+name: 'e-Raven'
+version: '1.0.0'
+ 
+source-path: "models"
+seed-path: "metadata\\seeds"
+staging-seed-path: "metadata\\staging"
+non-executable-extensions: ["py","csv"]
+apps: ["musdw","raptor","regops"]
