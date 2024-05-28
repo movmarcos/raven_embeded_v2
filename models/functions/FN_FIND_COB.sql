@@ -1,0 +1,7 @@
+CREATE OR REPLACE FUNCTION RAVEN.FN_FIND_COB("FILE_PATH" VARCHAR(16777216))
+RETURNS VARCHAR(40)
+LANGUAGE SQL
+AS '
+    SELECT REPLACE(REGEXP_SUBSTR(FILE_PATH, ''(^|[^[:word:]]|[[:space:]])\\\\d{8}([^[:word:]]|[[:space:]]|$)''),''/'','''')
+  '
+;
